@@ -1,0 +1,14 @@
+ {% extends "layout.html" %}
+
+{% block content %}
+    <p>You're finally home</p>
+    <hr>
+    <p> Games : </p>
+    <br>
+    {% for game in games %}
+        <h2>
+            {{game.name}}
+        </h2>
+        <p> Devloped by {{game.devloper}} in {{game.year}}</p>
+    {% endfor %}
+{% endblock content %}
