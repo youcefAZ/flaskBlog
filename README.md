@@ -1,6 +1,9 @@
 # flaskBlog
 Learning Flask
 
+Requirements : Flask, Flask-wtf
+
+--------------------------------
 in cmd : set flask_app=flaskblog.py
          flask run
 
